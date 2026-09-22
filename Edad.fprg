@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Edad"/>
+        <attribute name="authors" value="carlos"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-21 09:33:23 p. m."/>
+        <attribute name="created" value="Y2FybG9zO05PUk1BTC1QQzsyMDI2LTA5LTIxOzA2OjA3OjM4IHAuIG0uOzI3NzE="/>
+        <attribute name="edited" value="Y2FybG9zO05PUk1BTC1QQzsyMDI2LTA5LTIxOzA5OjMzOjIzIHAuIG0uOzE7Mjg3NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="edad" type="Integer" array="False" size=""/>
+            <output expression="&quot;Cual es tu edad?&quot;" newline="False"/>
+            <input variable="edad"/>
+            <if expression="edad &gt;= 18">
+                <then>
+                    <output expression="&quot;Puedes pasar&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;No puedes pasar&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
